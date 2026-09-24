@@ -9,8 +9,6 @@ from sklearn.cluster import KMeans
 
 # 1. Initialize Flask App FIRST
 app = Flask(__name__)
-app.secret_key = "super_secret_key_for_clustering_app"
-
 # Base Category Mapping
 FALLBACK_CATEGORIES = {
     0: "ARTS & LITERATURE",
